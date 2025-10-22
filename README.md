@@ -10,6 +10,7 @@ This project is a template for building decentralized applications (DApps) using
 - **UI Components**: Includes reusable and customizable UI components.
 - **State Management**: Context API for managing wallet connections and app state.
 - **ESLint Configuration**: Enforces code quality and consistency.
+- **Bun Support**: Use Bun for faster installs and runtime performance.
 
 ## Getting Started
 
@@ -18,7 +19,7 @@ Follow these steps to set up and run the project locally:
 ### Prerequisites
 
 - Node.js (v16 or higher)
-- npm or yarn
+- npm, yarn, or Bun
 - Git
 
 ### Installation
@@ -32,18 +33,36 @@ Follow these steps to set up and run the project locally:
 
 2. Install dependencies:
 
+   Using npm:
    ```bash
    npm install
-   # or
+   ```
+
+   Using yarn:
+   ```bash
    yarn install
+   ```
+
+   Using Bun:
+   ```bash
+   bun install
    ```
 
 3. Start the development server:
 
+   Using npm:
    ```bash
    npm run dev
-   # or
+   ```
+
+   Using yarn:
+   ```bash
    yarn dev
+   ```
+
+   Using Bun:
+   ```bash
+   bun run dev
    ```
 
 4. Open your browser and navigate to `http://localhost:5173`.
@@ -62,10 +81,10 @@ Follow these steps to set up and run the project locally:
 
 ## Scripts
 
-- `npm run dev`: Start the development server.
-- `npm run build`: Build the application for production.
-- `npm run preview`: Preview the production build locally.
-- `npm run lint`: Run ESLint to check for code quality issues.
+- `npm run dev` / `bun run dev`: Start the development server.
+- `npm run build` / `bun run build`: Build the application for production.
+- `npm run preview` / `bun run preview`: Preview the production build locally.
+- `npm run lint` / `bun run lint`: Run ESLint to check for code quality issues.
 
 ## License
 
@@ -80,3 +99,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 - [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
 - [Stacks Blockchain](https://www.stacks.co/)
+- [Bun](https://bun.sh/)
